@@ -11,11 +11,11 @@ $tertiary_color: #f6f6f6;
 $form_text_color: #afafaf;
 $header_color: #ffffff;
 
-@include font-face("TitilliumText22L003","/fonts/TitilliumText22L003");
-@include font-face("TitilliumText22L001","/fonts/TitilliumText22L001");
+@include font-face("TitilliumText22L003","../fonts/TitilliumText22L003");
+@include font-face("TitilliumText22L001","../fonts/TitilliumText22L001");
 
 html { 
-  background: url(/images/background.png) no-repeat center center fixed; 
+  background: url(../images/background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
